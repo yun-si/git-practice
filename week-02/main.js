@@ -49,7 +49,7 @@ for (let i=0; i<size; i++) {
     stack.print();
 }
 
-// 3. pop when stack is null
+// 3. pop when stack is empty
 console.log("\n3. peek and pop when stack is null:")
 
 console.log(stack.peek());
