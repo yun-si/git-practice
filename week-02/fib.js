@@ -4,18 +4,16 @@ let fibonacci = (n) => {
         return arr[n];
     }
 
-    for (let i = 0; i < n-2; i++) {
-        let temp = arr[0];
-        arr[0] = arr[1];
-        arr[1] = temp + arr[0];
+    for (let i = 0; i < n - 2; i++) {
+        [arr[0], arr[1]] = [arr[1], arr[0] + arr[1]];
     }
 
     return arr[0] + arr[1];
-}
+};
 
 // 印出前 10 個結果
 
-let answer = []
+let answer = [];
 for (let j = 0; j < 10; j++) {
     answer.push(fibonacci(j));
 }
@@ -28,13 +26,13 @@ let fibonacci1 = (n) => {
     let arr = [];
     arr[0] = 0;
     arr[1] = 1;
-    for (let i=2; i<=n; i++) {
-        arr[n] = arr[n-1] + arr[n-2]
+    for (let i = 2; i <= n; i++) {
+        arr[n] = arr[n - 1] + arr[n - 2];
     }
-    return arr[n]
-}
+    return arr[n];
+};
 
-let answer1 = []
+let answer1 = [];
 for (let j = 0; j < 10; j++) {
     answer1.push(fibonacci(j));
 }
