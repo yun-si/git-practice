@@ -4,12 +4,6 @@
 
 https://www.blog.yunn.online/
 
-第一次點擊可能需要點選「繼續前往」
-
-憑證：
-
-<img src="./asset/cert.png" width=50%>
-
 ### 2. 你在哪裡購買網域的
 
 GoDaddy
