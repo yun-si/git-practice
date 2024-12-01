@@ -4,9 +4,11 @@
 
 除錯步驟如下：
 
-1. Nginx
-2. 防火牆
-3. File permissions
+1. [Nginx](#nginx)
+2. [防火牆](#防火牆)
+3. [File permissions](#file-permission)
+
+[進階：讓 instance reboot 後仍正常運作](#reboot-instance)
 
 ## Nginx
 
